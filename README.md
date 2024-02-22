@@ -61,6 +61,15 @@ We login with the following credentials:
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/7e028ce6-c3e3-4352-9302-4b9d1e4569b5)
 
+## We can check the WebAPI Authorization in the Weatherforecast action
+
+If we include the **Authorize** attribute we can include the authorization required in the **WeatherForecast** action in thside the **WeatherForecastController**
+
+It is also mandatory to include the library reference **Microsoft.AspNetCore.Authorization**
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/a0c19a1e-b20b-4001-a8bb-d3724a06260e)
+
+
 
 
 
