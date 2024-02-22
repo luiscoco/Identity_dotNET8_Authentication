@@ -101,6 +101,7 @@ Now if we login we can obtain the access Token
 
 If we codpy the access token and we press the Authorize button and we input **Bearer access token** now we can access the Weatherforecast WebAPI
 
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/7b161115-e046-4a5b-945f-e69995d9b9a1)
 
 
 
