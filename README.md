@@ -69,7 +69,7 @@ It is also mandatory to include the library reference **Microsoft.AspNetCore.Aut
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/a0c19a1e-b20b-4001-a8bb-d3724a06260e)
 
-## To include the Au
+## To include the Authorize button in the WebAPI
 
 ```csharp
 builder.Services.AddSwaggerGen(options =>
@@ -84,4 +84,6 @@ builder.Services.AddSwaggerGen(options =>
   options.OperationFilter<SecurityRequirementsOperationFilter>();
 });
 ```
+
+We also need to install this library **Swashbuckle.AspNetCore.Filters**
 
