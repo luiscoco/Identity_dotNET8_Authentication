@@ -29,7 +29,7 @@ dotnet ef database update
 In the project file set the variable "InvariantGlobalization" to "false"
 
 
-## REGISTRY 
+## Register a new User
 
 We send the following request for registry a new user:
 
