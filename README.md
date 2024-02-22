@@ -69,7 +69,7 @@ It is also mandatory to include the library reference **Microsoft.AspNetCore.Aut
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/a0c19a1e-b20b-4001-a8bb-d3724a06260e)
 
-## To include the Authorize button in the WebAPI
+## To include the "Authorize" button in the WebAPI
 
 ```csharp
 builder.Services.AddSwaggerGen(options =>
@@ -86,4 +86,15 @@ builder.Services.AddSwaggerGen(options =>
 ```
 
 We also need to install this library **Swashbuckle.AspNetCore.Filters**
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/a7ffb6e2-69aa-486e-a073-9942be3ab492)
+
+We can also see a lock icon in the Weatherforecast action
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/1d213c3f-8697-4429-844a-ab9cc6a06aaf)
+
+Now if we login we can obtain the access Token
+
+
+
 
