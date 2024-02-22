@@ -12,6 +12,10 @@ https://www.youtube.com/watch?v=owoy6DG0UG0
 
 https://www.youtube.com/watch?v=UwruwHl3BlU
 
+.NET 6 Web API 🔒 Create JSON Web Tokens (JWT) - User Registration / Login / Authentication:
+
+https://www.youtube.com/watch?v=v7q3pEK1EA0
+
 ## How to pull and run the SQL Server Docker container 
 
 ```
