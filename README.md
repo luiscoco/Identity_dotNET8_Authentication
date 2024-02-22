@@ -4,6 +4,10 @@
 
 https://www.youtube.com/watch?v=8J3nuUegtL4
 
+.NET 8 🔥🚀 : Guide to Secure User Authentication - Exploring Identity new Features:
+
+https://www.youtube.com/watch?v=ORzt0lks2H4
+
 Coding Short: Using Bearer Tokens in .NET 8 Identity (youtube video):
 
 https://www.youtube.com/watch?v=owoy6DG0UG0
