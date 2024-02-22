@@ -44,4 +44,23 @@ We send the following request for registry a new user:
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/5a3ac255-7100-4d45-9e55-2004fb4f9b1a)
 
+## Login
+
+We login with the following credentials:
+
+```json
+{
+  "email": "luiscocoenriquez@hotmail.com",
+  "password": "Test123@",
+  "twoFactorCode": "string",
+  "twoFactorRecoveryCode": "string"
+}
+```
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/2f10d949-7ab7-437c-89ca-4c3ebd379592)
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/7e028ce6-c3e3-4352-9302-4b9d1e4569b5)
+
+
+
 
