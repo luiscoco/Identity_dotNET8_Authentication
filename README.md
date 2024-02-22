@@ -103,6 +103,8 @@ If we codpy the access token and we press the Authorize button and we input **Be
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/7b161115-e046-4a5b-945f-e69995d9b9a1)
 
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/468bce92-4bdb-43c0-a4e0-e739ec561321)
 
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/f7604a31-de49-4dd3-a1f6-700afa6a1cda)
 
 
