@@ -4,6 +4,10 @@
 
 https://www.youtube.com/watch?v=8J3nuUegtL4
 
+Coding Short: Using Bearer Tokens in .NET 8 Identity (youtube video):
+
+https://www.youtube.com/watch?v=owoy6DG0UG0
+
 ## How to pull and run the SQL Server Docker container 
 
 ```
