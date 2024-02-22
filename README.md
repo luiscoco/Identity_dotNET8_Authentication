@@ -27,3 +27,21 @@ dotnet ef database update
 ## IMPORTANT NOTE
 
 In the project file set the variable "InvariantGlobalization" to "false"
+
+
+## REGISTRY 
+
+We send the following request for registry a new user:
+
+```json
+{
+  "email": "luiscocoenriquez@hotmail.com",
+  "password": "Test123@"
+}
+```
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/6784701c-32f4-4578-8721-aa0a03bdea3b)
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/5a3ac255-7100-4d45-9e55-2004fb4f9b1a)
+
+
