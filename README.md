@@ -95,6 +95,13 @@ We can also see a lock icon in the Weatherforecast action
 
 Now if we login we can obtain the access Token
 
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/435585f4-7a7d-417b-a2d8-cd72dd7b5f65)
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/0102b098-c143-4099-9d63-b9bcb128fe3b)
+
+If we codpy the access token and we press the Authorize button and we input **Bearer access token** now we can access the Weatherforecast WebAPI
+
+
 
 
 
