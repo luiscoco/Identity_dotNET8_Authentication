@@ -1,5 +1,7 @@
 # dotNET8Authentication
 
+.NET 8 Authentication with Identity in a Web API with Bearer Tokens & Cookies (youtube video): https://www.youtube.com/watch?v=8J3nuUegtL4
+
 ## How to pull and run the SQL Server Docker container 
 
 ```
@@ -106,5 +108,7 @@ If we codpy the access token and we press the Authorize button and we input **Be
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/468bce92-4bdb-43c0-a4e0-e739ec561321)
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/f7604a31-de49-4dd3-a1f6-700afa6a1cda)
+
+## Authorization with Cookies
 
 
