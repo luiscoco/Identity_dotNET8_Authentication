@@ -8,6 +8,10 @@ Coding Short: Using Bearer Tokens in .NET 8 Identity (youtube video):
 
 https://www.youtube.com/watch?v=owoy6DG0UG0
 
+.NET 7 Web API 🔒 Create JSON Web Tokens (JWT) - User Registration / Login / Authentication (youtube video):
+
+https://www.youtube.com/watch?v=UwruwHl3BlU
+
 ## How to pull and run the SQL Server Docker container 
 
 ```
