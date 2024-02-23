@@ -99,6 +99,14 @@ We also have to select the Networking options
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/89b3ada5-4106-4d15-bf6e-d36851ae1fd2)
 
+We finally create the database
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/f0ad0927-fec4-4161-9ede-ad6d5021c898)
+
+Now it is very important to copy the database connection string and input this value in the **appsettings.json** file
+
+
+
 ## 2. Create WebAPI in Visual Studio 2022 Community Edition
 
 We run Visual Studio 2022 and create a new project
