@@ -103,9 +103,27 @@ We finally create the database
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/f0ad0927-fec4-4161-9ede-ad6d5021c898)
 
-Now it is very important to copy the database connection string and input this value in the **appsettings.json** file
+We go to the resource
 
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/3c5a0dfb-d8c0-4dac-a349-79a8922732ce)
 
+And then we copy the database connection string and input this value in the **appsettings.json** file
+
+```
+Server=tcp:myidentityserver.database.windows.net,1433;Initial Catalog=DotNet8Authentication;Persist Security Info=False;User ID=admin123;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+```
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/16922b1a-ae0e-41e9-bc2b-c62836d225c4)
+
+**IMPORTANT NOTE**: do not to forget to replace your password in the above connectionstring
+
+we replace **{your_password}** with **Luiscoco123456**
+
+This is the final connection string
+
+```
+Server=tcp:myidentityserver.database.windows.net,1433;Initial Catalog=DotNet8Authentication;Persist Security Info=False;User ID=admin123;Password=Luiscoco123456;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+```
 
 ## 2. Create WebAPI in Visual Studio 2022 Community Edition
 
