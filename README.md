@@ -225,6 +225,8 @@ We check in SSMS the new tables created inside the database
 
 Build and run the application with Visual Studio 2022
 
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/e5107329-3049-4341-ba6a-8238011024eb)
+
 ### 8.1. Register a new User
 
 We send the following request for registry a new user:
