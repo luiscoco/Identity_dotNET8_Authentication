@@ -8,13 +8,30 @@
 docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Luiscoco123456" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
 ```
 
-### 1.2. Create Azure SQL database for identity
+### 1.2. Create Azure SQL database for identity (OPTIONAL)
 
 
 ## 2. Create WebAPI in Visual Studio 2022 Community Edition
 
+We run Visual Studio 2022 and create a new project
 
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/af80c3d0-14d1-4e5c-b245-9e34425d6ab9)
 
+We select the project template 
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/8877f4cf-2812-4fa8-8b0e-de34f31b3634)
+
+We input the project name and the project location
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/e08ccea7-1e64-4fb9-a9a4-06b1724af18c)
+
+We leave the default project features and we also select/check **Use Controllers**
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/e1ff147f-5b14-474b-9bf2-3d5e845a93df)
+
+This is the default project structure we create
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/5b8f7ff7-d5c5-46b9-afa1-cfac3d4494ef)
 
 ## 3. Load project dependencies
 
