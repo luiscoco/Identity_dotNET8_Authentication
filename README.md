@@ -20,11 +20,25 @@ https://www.youtube.com/watch?v=UwruwHl3BlU
 
 https://www.youtube.com/watch?v=v7q3pEK1EA0
 
-## How to pull and run the SQL Server Docker container 
+## 1. Prerequisites
+
+### 1.1. How to pull and run the SQL Server Docker container 
 
 ```
 docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Luiscoco123456" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
 ```
+
+### 1.2. Create Azure SQL database for identity
+
+
+## 2. Create WebAPI in Visual Studio 2022 Community Edition
+
+
+## 3. Load project dependencies
+
+
+## 4. 
+
 
 ## EntityFramework commands
 
