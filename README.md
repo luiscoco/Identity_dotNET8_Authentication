@@ -1,25 +1,5 @@
 # dotNET8Authentication
 
-.NET 8 Authentication with Identity in a Web API with Bearer Tokens & Cookies (youtube video): 
-
-https://www.youtube.com/watch?v=8J3nuUegtL4
-
-.NET 8 🔥🚀 : Guide to Secure User Authentication - Exploring Identity new Features:
-
-https://www.youtube.com/watch?v=ORzt0lks2H4
-
-Coding Short: Using Bearer Tokens in .NET 8 Identity (youtube video):
-
-https://www.youtube.com/watch?v=owoy6DG0UG0
-
-.NET 7 Web API 🔒 Create JSON Web Tokens (JWT) - User Registration / Login / Authentication (youtube video):
-
-https://www.youtube.com/watch?v=UwruwHl3BlU
-
-.NET 6 Web API 🔒 Create JSON Web Tokens (JWT) - User Registration / Login / Authentication:
-
-https://www.youtube.com/watch?v=v7q3pEK1EA0
-
 ## 1. Prerequisites
 
 ### 1.1. How to pull and run the SQL Server Docker container 
@@ -142,5 +122,29 @@ If we codpy the access token and we press the Authorize button and we input **Be
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/f7604a31-de49-4dd3-a1f6-700afa6a1cda)
 
 ## Authorization with Cookies
+
+
+## References
+
+.NET 8 Authentication with Identity in a Web API with Bearer Tokens & Cookies (youtube video): 
+
+https://www.youtube.com/watch?v=8J3nuUegtL4
+
+.NET 8 🔥🚀 : Guide to Secure User Authentication - Exploring Identity new Features:
+
+https://www.youtube.com/watch?v=ORzt0lks2H4
+
+Coding Short: Using Bearer Tokens in .NET 8 Identity (youtube video):
+
+https://www.youtube.com/watch?v=owoy6DG0UG0
+
+.NET 7 Web API 🔒 Create JSON Web Tokens (JWT) - User Registration / Login / Authentication (youtube video):
+
+https://www.youtube.com/watch?v=UwruwHl3BlU
+
+.NET 6 Web API 🔒 Create JSON Web Tokens (JWT) - User Registration / Login / Authentication:
+
+https://www.youtube.com/watch?v=v7q3pEK1EA0
+
 
 
