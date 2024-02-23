@@ -11,7 +11,11 @@ We run Docker Desktop application
 We open a command prompt window and run the following command
 
 ```
-docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Luiscoco123456" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
+docker run ^
+  -e "ACCEPT_EULA=Y" ^
+  -e "MSSQL_SA_PASSWORD=Luiscoco123456" ^
+  -p 1433:1433 ^
+  -d mcr.microsoft.com/mssql/server:2022-latest
 ```
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/5661f705-44eb-4537-855e-ed04279d002e)
