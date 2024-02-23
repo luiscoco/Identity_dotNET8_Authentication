@@ -18,7 +18,7 @@ docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Luiscoco123456" -p 1433:1433
 
 ## 3. Load project dependencies
 
-
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/9af00e2c-79ac-4c99-a989-784d65b031c1)
 
 ## 4. Create the DataContext.cs
 
