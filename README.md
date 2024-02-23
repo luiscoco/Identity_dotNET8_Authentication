@@ -34,7 +34,7 @@ We run SSMS SQL Server Management Studio and we connect to the SQL Server runnin
 
 In the password we input **Luiscoco123456**, the same password as we provide when we run the SQL Server docker container
 
-Now we can create a new database "****" for this sample
+Now we can create a new database "**DotNet8Authentication**" for this sample
 
 ```
 CREATE DATABASE DotNet8Authentication
