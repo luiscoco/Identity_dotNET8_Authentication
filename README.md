@@ -14,13 +14,106 @@ docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Luiscoco123456" -p 1433:1433
 ## 2. Create WebAPI in Visual Studio 2022 Community Edition
 
 
+
+
 ## 3. Load project dependencies
 
 
-## 4. 
 
+## 4. Create the DataContext.cs
 
-## EntityFramework commands
+We have to create the **Data** foder and inside to create a new file DataContext.cs
+
+```csharp
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace dotNET8Authentication.Data
+{
+    public class DataContext : IdentityDbContext
+    {
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
+        { 
+        
+        }
+    }
+}
+```
+
+## 5. Modify the program.cs
+
+```csharp
+using dotNET8Authentication.Data;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.Filters;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey
+    });
+
+    options.OperationFilter<SecurityRequirementsOperationFilter>();
+});
+
+builder.Services.AddDbContext<DataContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+builder.Services.AddAuthorization();
+
+builder.Services.AddIdentityApiEndpoints<IdentityUser>()
+    .AddEntityFrameworkStores<DataContext>();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.MapIdentityApi<IdentityUser>();
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();
+```
+
+## 6. Modify the appsettings.json 
+
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost,1433;Database=DotNet8Authentication;User ID=sa;Password=Luiscoco123456;Encrypt=false;TrustServerCertificate=true;"
+  },
+  "AllowedHosts": "*"
+}
+```
+
+## 7. Create the database migration and update the database
+
+These are the EntityFramework commands we have to run
 
 ```
 dotnet tool install --global dotnet-ef
@@ -43,7 +136,11 @@ dotnet ef database update
 In the project file set the variable "InvariantGlobalization" to "false"
 
 
-## Register a new User
+## 8. How to test the application
+
+Build and run the application with Visual Studio 2022
+
+### 8.1. Register a new User
 
 We send the following request for registry a new user:
 
@@ -58,7 +155,7 @@ We send the following request for registry a new user:
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/5a3ac255-7100-4d45-9e55-2004fb4f9b1a)
 
-## Login
+### 8.2. Login
 
 We login with the following credentials:
 
@@ -75,7 +172,7 @@ We login with the following credentials:
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/7e028ce6-c3e3-4352-9302-4b9d1e4569b5)
 
-## We can check the WebAPI Authorization in the Weatherforecast action
+### 8.3. Check the WebAPI Authorization in the Weatherforecast
 
 If we include the **Authorize** attribute we can include the authorization required in the **WeatherForecast** action in thside the **WeatherForecastController**
 
@@ -83,7 +180,7 @@ It is also mandatory to include the library reference **Microsoft.AspNetCore.Aut
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/a0c19a1e-b20b-4001-a8bb-d3724a06260e)
 
-## To include the "Authorize" button in the WebAPI
+### 8.4. To include the "Authorize" button in the WebAPI
 
 ```csharp
 builder.Services.AddSwaggerGen(options =>
@@ -121,10 +218,10 @@ If we codpy the access token and we press the Authorize button and we input **Be
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/f7604a31-de49-4dd3-a1f6-700afa6a1cda)
 
-## Authorization with Cookies
+## 9. Authorization with Cookies
 
 
-## References
+## 10. References
 
 .NET 8 Authentication with Identity in a Web API with Bearer Tokens & Cookies (youtube video): 
 
