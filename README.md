@@ -260,7 +260,8 @@ app.Run();
     }
   },
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost,1433;Database=DotNet8Authentication;User ID=sa;Password=Luiscoco123456;Encrypt=false;TrustServerCertificate=true;"
+    "DefaultConnection": "Server=localhost,1433;Database=DotNet8Authentication;
+     User ID=sa;Password=Luiscoco123456;Encrypt=false;TrustServerCertificate=true;"
   },
   "AllowedHosts": "*"
 }
