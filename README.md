@@ -294,10 +294,6 @@ Also the Migrations folder will be created
 
 Now we have to set a new vairable in the csproj
 
-In case of using the Azure SQL database we can also see the result after the database update
-
-![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/92cd5b65-0cb8-4251-822d-34d6f2563fae)
-
 ## IMPORTANT NOTE
 
 In the project file set the variable "InvariantGlobalization" to "false"
@@ -315,6 +311,10 @@ dotnet ef database update
 We check in SSMS the new tables created inside the database
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/e9337be1-0758-4e8c-8cec-bffec640f6a2)
+
+In case of using the **Azure SQL database** we can also see the result after the database update
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/92cd5b65-0cb8-4251-822d-34d6f2563fae)
 
 ## 8. How to test the application
 
