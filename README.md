@@ -75,6 +75,24 @@ We input the requested data to create the database: : Subscription, ResourceGrou
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/676b0469-fee2-4b6d-a561-1ce45a84a38a)
 
+We also have to create a new Server
+
+We input the Server name and location
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/bb7552ff-b173-452d-994a-2a6739c33630)
+
+We also select the **Use SQL authentication** option, and input the login name and password
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/0de6d222-fdef-4d60-9367-6e6efdcb3acc)
+
+We also have to configure the database computing resources
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/d9c97754-fa36-4228-8999-e8b58781c817)
+
+We input the required vCores and storing menory size
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/29490aa4-541a-4550-8daa-21c52b899605)
+
 
 
 ## 2. Create WebAPI in Visual Studio 2022 Community Edition
