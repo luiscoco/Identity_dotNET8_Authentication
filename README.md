@@ -1,4 +1,4 @@
-# dotNET8Authentication
+# How to include Authentication (JWT & Cookies) in your .NET 8 Web API
 
 ## 1. Prerequisites
 
