@@ -32,6 +32,25 @@ We run SSMS SQL Server Management Studio and we connect to the SQL Server runnin
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/844b1d77-0a27-49f8-9e47-dfc3413f3af8)
 
+In the password we input **Luiscoco123456**, the same password as we provide when we run the SQL Server docker container
+
+Now we can create a new database "****" for this sample
+
+```
+CREATE DATABASE DotNet8Authentication
+GO
+```
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/e8ea8450-da3b-47da-bc05-26cf8df3cf2f)
+
+We select the **Refresh** option in the database
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/169c0f98-cb8b-4479-9731-efc3002761a7)
+
+Now we can see the new database in the Databases tree
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/5b1d90b3-5fec-4ef6-a528-70eabb798f98)
+
 ### 1.2. Create Azure SQL database for identity (OPTIONAL)
 
 
