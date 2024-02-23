@@ -139,6 +139,11 @@ We run SSMS and check the Azure SQL database is working fine
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/9aef64d9-bf89-4228-98e9-57fb9d133d41)
 
+We input the password **Luiscoco123456** we input when creating the Server
+
+We confirm the connection is ok
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/bd4b7b59-6945-45e1-af9e-5cb2997c9948)
 
 ## 2. Create WebAPI in Visual Studio 2022 Community Edition
 
