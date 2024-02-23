@@ -125,6 +125,21 @@ This is the final connection string
 Server=tcp:myidentityserver.database.windows.net,1433;Initial Catalog=DotNet8Authentication;Persist Security Info=False;User ID=admin123;Password=Luiscoco123456;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 ```
 
+We also have to **Configure network access** to your SQL server
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/515f31f3-f634-471c-9c70-750e615a1a48)
+
+We add our local laptop IP address in the firewall rules
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/c267c8fd-ec8f-48e2-94ad-11d2ee31d2c3)
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/cb71ab21-e348-4169-80be-554ba22b80a5)
+
+We run SSMS and check the Azure SQL database is working fine
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/9aef64d9-bf89-4228-98e9-57fb9d133d41)
+
+
 ## 2. Create WebAPI in Visual Studio 2022 Community Edition
 
 We run Visual Studio 2022 and create a new project
