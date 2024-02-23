@@ -53,6 +53,27 @@ Now we can see the new database in the Databases tree
 
 ### 1.2. Create Azure SQL database for identity (OPTIONAL)
 
+Another option is to create your identity database in Azure SQL database
+
+We first have to log in to Azure Portal
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/a7b80f6e-c4b5-4768-8497-e21e9f22ddcf)
+
+We navigate into Create a new Resource and we select **Azure SQL**
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/935ed12c-7321-4bed-adbb-5e777f173367)
+
+We select the option **SQL databases** create
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/0b7f0cba-42c0-478e-8024-c24a352a4718)
+
+We select the button **Apply offer (preview)**
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/8ab2cef5-c7c0-4826-b890-3f016ec4c80d)
+
+We input the requested data to create the database
+
+
 
 ## 2. Create WebAPI in Visual Studio 2022 Community Edition
 
