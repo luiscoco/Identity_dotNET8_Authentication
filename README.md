@@ -71,7 +71,9 @@ We select the button **Apply offer (preview)**
 
 ![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/8ab2cef5-c7c0-4826-b890-3f016ec4c80d)
 
-We input the requested data to create the database
+We input the requested data to create the database: : Subscription, ResourceGroup, Databasename
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/676b0469-fee2-4b6d-a561-1ce45a84a38a)
 
 
 
