@@ -175,26 +175,51 @@ app.Run();
 
 These are the EntityFramework commands we have to run
 
+This first command is to install EntityFramework
+
 ```
 dotnet tool install --global dotnet-ef
 ```
+
+This command is to check the EntityFramework version already installed
 
 ```
 dotnet ef
 ```
 
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/08f17aa7-1ba2-4710-bd21-091758bf786c)
+
+Now we create the initial migration
+
 ```
 dotnet ef migrations add initial
 ```
 
-```
-dotnet ef database update
-```
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/fdecfed6-b884-4770-aed3-4f79417fcf75)
+
+Also the Migrations folder will be created
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/8b29a4b4-9bdf-4e07-b895-91bd1f97c013)
+
+Now we have to set a new vairable in the csproj
 
 ## IMPORTANT NOTE
 
 In the project file set the variable "InvariantGlobalization" to "false"
 
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/c1876399-d033-4476-8ffd-2b18303a7246)
+
+We also update the database
+
+```
+dotnet ef database update
+```
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/0f71be5b-516a-4c6e-86ef-2a8ee0e4874d)
+
+We check in SSMS the new tables created inside the database
+
+![image](https://github.com/luiscoco/Identity_dotNET8_Authentication/assets/32194879/e9337be1-0758-4e8c-8cec-bffec640f6a2)
 
 ## 8. How to test the application
 
